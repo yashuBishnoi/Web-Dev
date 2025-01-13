@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.body{
+    background-color: black;
+}
+.maindiv{
+    width: 1000px;
+    height: 787px;
+    
+    margin-left: 215px;
+    float: left;
+}
+.header{
+    width: 1000px;
+    height: 186px;
+    background-image: url('./Images/headerbg.jpg');
+    float: left;
+}
+.logo{
+    width: 287px;
+    height: 160px;
+    margin-left: 40px;
+    margin-right: 30px;
+    float: left;
+}
+.sitename{
+    width: 341px;
+    height: 42px;
+    margin-top: 40px;
+    margin-right: 35px;
+    float: left;
+    color: aquamarine;
+    font-size: 20px;
+}
+.headercontact{
+    width: 296px;
+    height: 112.500px;
+    margin-top: -59px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 334px;
+    background-image: url('./Images/topcontactbg.png');
+}
+.websitename{
+    width: 276px;
+    height: 27.5px;
+    font-size: 20px;
+    color: black;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.mailid{
+    width: 276px;
+    height: 27.5px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.phoneno{
+    width: 276px;
+    height: 27.5px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menubar{
+    background: url('./Images/menubg.jpg') repeat-x;
+    width: 920px;
+    height: 40px;
+    background-image: url('./Images/menubg.jpg');
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: repeat-x;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 10px;
+    padding-left: 80px;;
+    float: left;
+}
+.menuitemactive{
+    width: 127px;
+    height: 44px;
+    background: url('./Images/menuactive.png') no-repeat;
+    background-image: url('./Images/menuactive.png');
+    text-align: center;
+    margin-right: 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    padding-top: 12px;
+}
+.menuitemactive a{
+    text-decoration: none;
+    color: black;
+}
+.menuitem a{
+    text-decoration: none;
+    color: black;
+}
+.menuitem{
+    width: 127px;
+    height: 44px;
+    text-align: center;
+    background: url('./Images/menubackground.png') no-repeat;
+    background-image: url('./Images/menubackground.png');
+    margin-right: 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    padding-top: 12px;
+}
+.maincontent{
+    width: 970px;
+    margin: 0px auto;
+    border: 0px #ff00ff solid;
+    float: left;
+}
+.leftdiv{
+    width: 213px;
+    height: 240px;
+    float: left;
+}
+.menuitemm{
+    width: 213px;
+    height: 24px;
+    float: left;
+    background: url('./Images/leftmenubg.png') no-repeat;
+    background-image: url('./Images/leftmenubg.png');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    padding-top: 15px;
+}
+.menuitemm a{
+    text-decoration: none;
+    color: black;
+}
+.rightdiv{
+    width: 705px;
+    
+    float: left;
+    margin-left: 15px;
+    /* border: 1px solid red; */
+}
+.rightdiv_1{
+    width: 705px;
+    /* border: 4px solid red; */
+    margin-left: 240px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 15px;
+}
+.rightdiv_2{
+    width: 705px;
+    /* border: 4px solid red; */
+    margin-left: 240px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 15px;
+}
+.rightdiv_3{
+    width: 705px;
+    margin-left: 240px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 15px;
+    /* border: 4px solid red; */
+}
+.rightdiv_4{
+    width: 705px;
+    /* border: 4px solid red; */
+    margin-left: 240px;
+    background-color: white;
+}
+.gallery_1{
+    margin: 25px;
+}
+.gallerydiv{
+    width: 705px;
+    /* height: 521px; */
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.galleryimgdiv{
+    width: 200px;
+    height: 105px;
+    text-align: justify;
+    line-height: 20px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.cleaar{
+    clear: both;
+}
+.gallery_1{
+    margin: 10px;
+}
+.contact_1{
+    margin: 10px;
+}
+.h_1{
+    margin: 10px;
+}
+.courses_1{
+    font-size: 18px;
+    color: #6f6969;
+}
+.enquiry_head{
+    margin: 15px;
+}
+.para_1{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #6f6969;
+}
+.para_2{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #6f6969;
+}
+.para_3{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #6f6969;
+}
+.para_4{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #6f6969;
+}
+.clearuboth{
+    width: 1000px;
+    height: 18.5px;
+    float: left;
+}
+.maincontent1{
+    width: 970px;
+    height: 195px;
+}
+.whydiv{
+    width: 213px;
+    height: 184px;
+    background: url('./Images/whybg.jpg') repeat-x;
+    border: #FFF 1px solid;
+    margin-left: 0px;
+    margin-right: 13px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    float: left;
+}
+.whydivcontent{
+    width: 203px;
+    height: 154.5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    color: #FFF;
+    float: left;
+}
+.whyheading{
+    width: 203px;
+    height: 18.5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+    float: left;
+}
+.coursesmaindiv{
+    width: 326px;
+    height: 184px;
+    margin-right: 14px;
+    background: #fdc059;
+    border: #FFF 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.courses_2{
+    text-decoration: none;
+    color: white;
+}
+.coursesheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.coursescontent{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.cleardiv{
+    clear: both;
+    height: 20px;
+    width: 1000px;
+}
+.footerleft{
+background: url('./Images/footer_left.png') no-repeat;
+    height: 33px;
+    width: 13px;
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.footermiddle{
+    background: url('./Images/footer_middle.png') repeat-x;
+    height: 33px;
+    width: 943px;
+    float: left;
+    padding-top: 15px;
+}
+ .footerright{
+    background: url('./Images/footer_right.png') no-repeat;
+    height: 33px;
+    width: 14px;
+    float: left;
+    padding-top: 15px;
+ }
+ .clearboth{
+    clear: both;
+ }
+ .footerinner{
+    width: 407px;
+    margin: 0px auto;
+ }
+ .footermenu{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+ }
+ .footermenu a{
+    text-decoration: none;
+    color: black;
+ }
+
+ /* about-rightdiv */
+ .about-rightdiv{
+    width: 710px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: white;
+    border: 1px solid green;
+    float: left;
+    padding: 20px;
+ }
+ .inputRow{
+    width: 690px;
+    margin: 15px 0px;
+    /* border: 2px solid  green; */
+ }
+
+ .inputRow_left{
+    width: 150px;
+    float: left;
+    /* border: 2px solid red; */
+    margin: 10px 0px;
+ }
+ .inputRow_right{
+    width: 400px;
+    /* border: 2px solid red; */
+    float: left;
+    margin: 10px 0px;
+ }
+
+.textarea1{
+    /* width: 200px; */
+    height: 70px;
+    resize: none;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    text-decoration: solid;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: aqua;
+}
+ .clear{
+    clear: both;
+ }

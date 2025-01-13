@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* background-color: #ccc; */
+        }
+
+        /* Maindiv start */
+
+        .maindiv {
+            width: 1000px;
+            height: 600px;
+            margin: auto;
+            margin-top: 100px;
+            border: 4px solid black;
+            background-color: white;
+            text-align: center;
+        }
+
+        .maindiv .div1 {
+            width: 100%;
+            height: 25%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 3px solid green;
+        }
+
+        .maindiv .div1 h1 {
+            padding-top: 40px;
+        }
+
+        .maindiv .div2 {
+            width: 100%;
+            height: 25%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 3px solid red;
+        }
+
+        .maindiv .div2 h1 {
+            padding-top: 40px;
+        }
+
+        .maindiv .div3 {
+            width: 100%;
+            height: 50%;
+            border: 3px solid yellow;
+            display: flex;
+        }
+
+        .maindiv .div3 h1 {
+            padding-top: 40px;
+        }
+
+        .leftdiv {
+            width: 50%;
+            border: 3px solid pink;
+        }
+
+        .leftdiv {
+            width: 50%;
+            border: 3px solid gold;
+        }
+
+        .leftinner1 {
+            width: 100%;
+            height: 50%;
+            border: 3px solid wheat;
+        }
+
+        .leftinner2 {
+            width: 100%;
+            height: 50%;
+            border: 3px solid wheat;
+        }
+
+        .div3 .rightdiv {
+            width: 50%;
+            border: 3px solid fuchsia;
+        }
+
+        .div3 .rightdiv h1 {
+            padding-top: 130px;
+        }
+
+        /* Maindiv ends */
+
+
+
+        /* Maindiv2 starts */
+
+        .maindiv2 {
+            width: 1000px;
+            height: 600px;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            border: 4px solid black;
+            background-color: white;
+            text-align: center;
+        }
+
+        .maindiv2 .home {
+            width: 100%;
+            height: 50%;
+            border: 3px solid red;
+            display: flex;
+        }
+
+        
+
+        .home .leftinner {
+            width: 50%;
+            height: 100%;
+            border: 3px solid;
+        }
+
+        .leftinner h1 {
+            padding-top: 25%;
+        }
+
+        .home .rightinner {
+            width: 50%;
+            height: 100%;
+            border: 3px solid;
+        }
+
+        .rightinner .deep1 {
+            width: 100%;
+            height: 50%;
+            border: 3px solid;
+        }
+
+        .deep1 h1{
+            padding-top: 10%;
+        }
+
+        .rightinner .deep2 {
+            width: 100%;
+            height: 50%;
+            border: 3px solid;
+        }
+
+        .deep2 h1{
+            padding-top: 10%;
+        }
+
+        .ws{
+            width: 100%;
+            height: 50%;
+            border: 3px solid;
+            display: flex;
+        }
+
+        .wsleft{
+            width: 50%;
+            height: 100%;
+            border: 3px solid green;
+           
+        }
+
+        .wsleft .right-1{
+            width: 100%;
+            height: 50%;
+            border: 2px solid green;
+        }
+
+        .right-1 h1{
+            padding-top: 10%;
+        }
+
+        .wsright{
+            width: 50%;
+            height: 100%;
+            border: 3px solid green;
+        }
+
+        .wsright h1{
+            padding-top: 25%;
+        }
+
+        
+
+        /* Maindiv2 ends */
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="div1">
+            <h1>Header</h1>
+        </div>
+        <div class="div2">
+            <h1>Navigation</h1>
+        </div>
+        <div class="div3">
+            <div class="leftdiv">
+                <div class="leftinner1">
+                    <h1>Courses</h1>
+                </div>
+                <div class="leftinner2">
+                    <h1>About</h1>
+                </div>
+            </div>
+            <div class="rightdiv">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="maindiv2">
+        <div class="home">
+            <div class="leftinner">
+                <h1>Home</h1>
+            </div>
+            <div class="rightinner">
+                <div class="deep1">
+                    <h1>About</h1>
+                </div>
+                <div class="deep2">
+                    <h1>Course</h1>
+                </div>
+            </div>
+        </div>
+        <div class="ws">
+            <div class="wsleft">
+                <div class="right-1">
+                    <h1>Welcome</h1>
+                </div>
+                <div class="right-1">
+                    <h1>IIP</h1>
+                </div>
+            </div>
+            <div class="wsright">
+                <h1>WSCUBE TECH</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

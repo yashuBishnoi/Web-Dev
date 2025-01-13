@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=.box, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 500px;
+            height: 500px;
+            margin: 15px auto;
+            background-color: #ccc;
+            padding: 20px;
+            background-image: url('https://i.pinimg.com/474x/70/63/58/706358bd0efb398b215bbbd00c97bcd8.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box input {
+            padding: 10px;
+            color: brown;
+            margin: 15px 0px;
+            background-color: transparent;
+            /* background-color: inherit; */
+        }
+
+        .box input::placeholder {
+            color: red;
+        }
+
+        .box label {
+            color: white;
+            margin-right: 10px;
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <input type="text" placeholder="Enter Your Name" readonly> <br />
+
+            <label for="">E-mail</label>
+            <input type="text" placeholder="Enter E-Mail"> <br />
+
+            <label for="">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female <br/>
+
+            <select name="" id="">
+                <option value="">--Select Your Language--</option>
+                <option value="">--Select Your Language--</option>
+                <option value="">--Select Your Language--</option>
+                <option value="">--Select Your Language--</option>
+                <option value="">--Select Your Language--</option>
+            </select> <br/>
+
+            <input type="range">
+        </form>
+    </div>
+</body>
+
+</html>

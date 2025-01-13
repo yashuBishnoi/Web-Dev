@@ -1,0 +1,77 @@
+`<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        p {
+            width: 500px;
+            margin: auto;
+        }
+
+        p::first-line{
+            background-color: red;
+            font-size: 25px;
+        }
+
+        p::first-letter{
+            color: yellow;
+            font-size: 50px;
+        }
+
+        p::selection {
+            background-color: aqua;
+            color: blueviolet;
+        }
+
+        p span {
+            background-color: #ccc;
+            color: yellow;
+        }
+
+        h3{
+            color: blue;
+        }
+
+        h3 span{
+            font-size: 22px;
+            color: black;
+        }
+
+        .yash{
+            font-size: 16px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, porro tempora in excepturi cupiditate quis
+        dolorem similique ad hic ipsum perspiciatis minus quasi, consectetur sequi, dolor id! Inventore, nostrum
+        provident!Lorem ipsum dolor <span>Yashvardhan</span> sit amet consectetur adipisicing elit. Dolores, porro
+        tempora in excepturi cupiditate quis
+        dolorem similique ad hic ipsum perspiciatis minus quasi, consectetur sequi, dolor id! Inventore, nostrum
+        provident!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, porro tempora in excepturi
+        cupiditate quis
+        dolorem similique ad hic ipsum perspiciatis minus quasi, consectetur sequi, dolor id! Inventore, nostrum
+        provident!
+    </p>
+
+    <h3>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quidem illo asperiores praesentium. Vitae
+        quasi aperiam debitis libero, <span>Y</span><span class="yash">ashvardhan</span> aut numquam at accusamus commodi, mollitia amet ipsum incidunt et repellendus
+        consequuntur!
+    </h3>
+</body>
+
+</html>
