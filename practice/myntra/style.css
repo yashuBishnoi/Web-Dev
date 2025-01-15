@@ -15,6 +15,8 @@ header{
     height: 85px;
     box-shadow: 0px 6px 50px #ccc;
     display: flex;
+    margin-bottom: 25px;
+    position: sticky;
 }
 
 header img{
@@ -34,7 +36,7 @@ header nav ul{
 }
 
 nav ul li{
-    margin-right: 30px;
+    margin-right: 28px;
     font-weight: 600;
     font-size: 14px;
 }
@@ -59,7 +61,6 @@ nav ul:last-child{
 .search-bar{
     width: 500px;
     position: relative;
-    /* border: 1px solid; */
 }
 
 .search-bar i{
@@ -84,7 +85,6 @@ header > div input{
 .user{
     width: 260px;
     height: 100%;
-    /* border: 1px solid; */
 }
 
 .user ul{
@@ -126,7 +126,6 @@ header > div input{
 .innerbox{
     width: 1170px;
     text-align: center;
-    /* display: flex; */
     position: absolute;
     background-color: white;
     top: 400%;
@@ -150,4 +149,235 @@ header > div input{
     visibility: visible;
     top: 268%;
     box-shadow: 0px 10px 5px lightgray;
+}
+
+.poster{
+    width: 1140px;
+    margin: auto;
+    height: 300px;
+    display: flex;
+}
+
+.poster > div img{
+    width: 100%;
+}
+
+.bank{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.bank img {
+    width: 20%;
+    height: 100%;
+}
+
+.title{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.title img{
+    width: 100%;
+}
+
+.coupon{
+    width: 1140px;
+    margin: auto;
+}
+
+.coupon img{
+    width: 100%;
+}
+
+.offer{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.offer img{
+    width: 50%;
+}
+
+.offer2{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.offer2 img{
+    width: 100%;
+}
+
+.slider1{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.slider1 img{
+    width: 25%;
+}
+
+.dot{
+    width: 1000px;
+    margin: auto;
+    height: 20px;
+    border: 2px solid red;
+}
+
+.shop{
+    width: 1140px;
+    margin: auto;
+}
+
+.shop img{
+    width: 100%;
+}
+
+.pictures{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.pictures img{
+    width: 16%;
+}
+
+.footer-upper{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.footer-upper img{
+    width: 100%;
+}
+
+.footer-main{
+    width: 100%;
+    background-color: #FAFBFC;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-inner1{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.inner1{
+    width: 20%;
+}
+
+.inner1 ul p{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.inner1 ul li{
+    color: #6E6D79;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.inner2{
+    width: 20%;
+}
+
+.inner2 ul p{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.inner2 ul li{
+    color: #6E6D79;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+.inner3{
+    width: 30%;
+    
+}
+
+.inner3 p{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.play{
+    width: 100%;
+    display: flex;
+}
+
+.googleplay{
+    width: 50%;
+}
+
+.googleplay > a img{
+    width: 90%;
+    height: 56px;
+}
+
+.appstore{
+    width: 50%;
+}
+
+.appstore > a img{
+    width: 90%;
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+}
+
+.icons a img{
+    margin-right: 15px;
+}
+
+.inner5{
+    width: 30%;
+}
+
+.discount{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.discount img{
+    padding-right: 10px;
+}
+
+.returns{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.returns img{
+    padding-right: 10px;
 }

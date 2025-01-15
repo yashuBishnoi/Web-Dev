@@ -243,6 +243,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
+    align-items: start;
     /* text-align: center; */
 }
 
