@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('./../Images/the-town-bg-01.jpg');
+    background-position: 100%;
+}
+
+.header {
+    width: 100%;
+    box-shadow: 0px 2px 10px 0px #ccc;  
+    background-color: white; 
+    position: sticky;
+    top: 0;
+}
+
+.header-inner {
+    width: 1320px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>ul {
+    display: flex;
+}
+
+.menu>ul>li {
+    font-size: 20px;
+    position: relative;
+    padding: 30px 20px;
+}
+
+.submenu {
+    position: absolute;
+    background-color: thistle;
+    width: 120px;
+    left: 100%;
+    top: 100%;
+}
+
