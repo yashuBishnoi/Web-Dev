@@ -15,8 +15,11 @@ header {
     height: 85px;
     box-shadow: 0px 6px 50px #ccc;
     display: flex;
+    background-color: white;
     margin-bottom: 25px;
     position: sticky;
+    top: 0px;
+    z-index: 9999;
 }
 
 header img {
@@ -150,6 +153,38 @@ header>div input {
     top: 268%;
     box-shadow: 0px 10px 5px lightgray;
 }
+
+/* Trial */
+
+.code {
+    width: 300px;
+    height: 35px;
+    background-color: #6E6D79;
+    position: fixed;
+    top: 69%;
+    left: 88%;
+    justify-content: space-between;
+    transform: rotate(270deg);
+}
+
+.flat{
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-left: 43px;
+}
+
+.flat-1{
+    position: absolute;
+    top: 6%;
+    right: 7px;
+    width: 50px;
+    height: 100%;
+    font-size: 36px;
+}
+
+
+/* Trial */
 
 .poster {
     width: 1140px;

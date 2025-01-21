@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
+
+.navigation{
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+}
+
+.logo img{
+    width: 205px;
+    height: 80.5px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.nav-section{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offline ul{
+    display: flex;
+    
+}
+
+.offline ul a{
+    text-decoration: none;
+    color: #4E4E4E;
+    margin-top: 40px;
+    margin-right: 35px;
+    font-weight: 500;
+}
+
+.login-buttons button{
+    width: 155px;
+    height: 45px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    color: #323232;
+    border: 0.5px solid gray;
+    margin-top: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-buttons button:hover{
+    background-color: #2599FB;
+    color: white;
+}
+
+.login-buttons button:nth-child(2){
+    width: 105px;
+    height: 45px;
+    background-color: #2599FB;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login-buttons button:nth-child(2):hover{
+    background-color: white;
+    color: #323232;
+}
+
+.main {
+    width: 100%;
+    background-color: #ccc;
+    padding: 80px 0px;
+    background-image: url('../images/spotlight-bg.webp');
+    background-position: center 89%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.main h1 {
+    background-image: url('../images/spotlight-heading-bg.svg');
+    background-repeat: no-repeat;
+    font-size: 44px;
+    font-weight: 700;
+    background-position: bottom right;
+    display: inline;
+    padding: 0 15px;
+}
+
+.main p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.container .box {
+    width: 25%;
+    border-right: 1px solid #0b2f4f;
+    /* border: 1px solid red; */
+}
+
+.none {
+    width: 25%;
+}
+
+.container h2 {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.container .box h2:hover {
+    color: gold;
+}
+
+.container .none h2:hover {
+    color: gold;
+}
+
+.newdiv{
+    width: 100%;
+    background-color: #F8F9FD;
+}
+
+.centerdiv {
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding-top: 100px;
+    /* margin-top: 100px; */
+    /* margin-bottom: 200px; */
+    padding-bottom: 200px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.leftdiv {
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+.rightdiv {
+    width: 40%;
+    /* border: 1px solid yellow; */
+}
+
+.rightdiv img {
+    width: 100%;
+    background-image: url('../images/iq-circle.webp'), url('../images/iq-dot-bg.webp');
+    background-repeat: no-repeat;
+    background-position: 100% 100%, 0% 0%;
+    padding: 50px 40px;
+}
+
+.row1 {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 5px;
+    /* border: 1px solid ; */
+}
+
+.row11 {
+    width: 95%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px -2px;
+    border-radius: 6px;
+}
+
+.row11:hover {
+    border-color: #2699FB;
+}
+
+.row1 h1 {
+    padding: 15px;
+    font-size: 36px;
+}
+
+.row1 p {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.row1 button {
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #2699FB;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    transition: 1s;
+}
+
+.row1 button:hover {
+    background-color: #ccc;
+}
+
+.row11 h3 {
+    padding: 5px;
+}
+
+.row11 p {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.row11 a {
+    padding: 6px;
+    text-decoration: none;
+    color: #2699FB;
+}
+
+.row11 span {
+    color: #2699FB;
+}
