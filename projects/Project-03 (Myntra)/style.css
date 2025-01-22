@@ -26,9 +26,9 @@ header {
 header img {
     width: 50px;
     height: 40px;
-    padding-left: 55px;
-    padding-top: 25px;
-    padding-right: 65px;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 65px;
     cursor: pointer;
 }
 
@@ -489,3 +489,17 @@ header>div input {
     text-align: center;
 }
 /* Men Html */
+
+/* Women Html */
+
+.women4{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.women4 img{
+    width: 100%;
+}
+/* Women Html */
