@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1200px){
+    .main{
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1095px){
+    .main2{
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 900px){
+    .main{
+        padding: 5px 10px;
+        margin: auto;
+        justify-items: center;
+    }
+
+    .theme-btns button:first-child span{
+        display: none;
+    }
+
+    .theme-btns button:last-child i {
+        display: block;
+    }
+
+    .theme-btns button:last-child span{
+        display: none;
+    }
+}

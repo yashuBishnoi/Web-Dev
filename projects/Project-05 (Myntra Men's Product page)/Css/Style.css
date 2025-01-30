@@ -168,6 +168,7 @@ header>div input {
     left: 88%;
     justify-content: space-between;
     transform: rotate(270deg);
+    z-index: 999;
 }
 
 .flat {
@@ -316,10 +317,10 @@ header>div input {
 
 /* Main Section */
 
+
+/* Section 1 */
 .product-main {
     margin: auto;
-    /* border: 2px solid red; */
-
 }
 
 .product-head {
@@ -355,7 +356,6 @@ header>div input {
 }
 
 .filters {
-    /* border: 1px solid; */
     display: flex;
     border-bottom: 1px solid #cccccc79;
 
@@ -366,12 +366,10 @@ header>div input {
     align-items: center;
     width: 20%;
     margin-left: 20px;
-    /* border: 1px solid red; */
 }
 
 .filter2 {
     width: 80%;
-    /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
@@ -385,7 +383,6 @@ header>div input {
 
 .box {
     width: 18%;
-    /* border: 2px solid pink; */
     height: 100%;
     margin-right: 10px;
     font-size: 12px;
@@ -406,7 +403,6 @@ header>div input {
 
 .recommended input {
     height: 39px;
-    /* border: 1px solid gray; */
     background-color: white;
     width: 270px;
     outline: none;
@@ -417,9 +413,9 @@ header>div input {
 }
 
 .category {
-    /* border: 1px solid; */
     margin: auto;
     display: flex;
+    margin-bottom: 30px;
 }
 
 .category1 {
@@ -465,11 +461,6 @@ header>div input {
 .check-in p span {
     color: #282f53ae;
     font-size: 12px;
-}
-
-.category2 {
-    width: 80%;
-    /* border: 1px solid yellow; */
 }
 
 .Inner-box2 {
@@ -529,7 +520,6 @@ header>div input {
 }
 
 .Inner-box3 sub {
-    /* color: #F16565; */
     padding-left: 33px;
     padding-top: 5px;
     font-size: 12px;
@@ -607,4 +597,63 @@ header>div input {
     padding-right: 10px;
 }
 
+/* Section 1 */
+
+.category2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.category2-1 {
+    background-image: url('./../images/T-shirt/038d09b0-220e-488d-8707-d0b6c1b769991710836863241-NOBERO-Graphic-Printed-Oversized-T-shirt-6021710836863167-7.jpg');
+    background-size: cover;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.category2-1-1{
+    position: relative;
+    bottom: -221px;
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid; */
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.category2-1-1 h4{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.bottom{
+    margin-bottom: 10px;
+}
+
+.bottom p{
+    color: #878B94;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.bottom span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bottom span s{
+    color: #878B94;
+    font-size: 12px;
+}
+
+.bottom sup{
+    color: #D34B56;
+    font-size: 12px;
+}
 /* Main Section */

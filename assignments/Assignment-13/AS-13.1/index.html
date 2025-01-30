@@ -1,173 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .main {
-            width: 1300px;
-            margin: auto;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding-top: 30px;
-        }
-
-        .box {
-            width: 300px;
-            height: 300px;
-            background-image: url('./Images/1.jpg');
-            text-align: center;
-            padding: 20px;
-            color: white;
-            
-        }
-
-        .box-inner{
-            background-image: url('./Images/3.jpg');
-        }
-
-        .box-inner1{
-            background-image: url('./Images/4.jpg');
-        }
-
-        .box-inner2{
-            background-image: url('./Images/1.jpg');
-        }
-
-        .box-inner3{
-            background-image: url('./Images/3.jpg');
-        }
-
-        .box-inner4{
-            background-image: url('./Images/4.jpg');
-        }
-
-        .box-inner5{
-            background-image: url('./Images/1.jpg');
-        }
-
-        .inner-box{
-            visibility: hidden;
-            opacity: 0;
-            transition: 111s linear;
-            /* transform: scale(0, 0); */
-            
-        }
-
-        .box:hover .inner-box{
-            visibility: visible;
-            opacity: 1;
-            /* transform: scale(1,1); */
-            background-color: #cccccc3d;
-        }
-
-        p {
-            font-size: 18px;
-            text-align: justify;
-            padding: 15px 0;
-        }
-
-        button {
-            width: 100px;
-            height: 25px;
-            border-radius: 5px;
-            background-color: aqua;
-            color: black;
-        }
-
-
-    </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Effect</title>
+    <link rel="icon" type="icon" href="./Images/5b80c0f9d4ed74a3b6706843f562b8ea-removebg-preview.png">
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			font-family: sans-serif;
+		}
+		.main{
+			width: 1170px;
+			margin: auto;
+			flex-wrap: wrap;
+			display: flex;
+		}
+		.items{
+			flex-basis: 31%;
+			margin: 1%;
+			position: relative;
+		}
+		.content{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			color: white;
+			opacity:0;
+			padding: 15px;
+			box-sizing: border-box;
+			transition: 2s;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background: rgba(0, 0, 0, 0.5);
+		}
+		.items:hover .content{
+			opacity: 1;
+		}
+		.content button{
+			padding: 5px 10px;
+			margin-top: 10px;
+		}
+		.items img{
+			width: 100%;
+		}
+	</style>
 </head>
-
 <body>
-    <div class="main">
-        <div class="box">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-        <div class="box box-inner">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-        <div class="box box-inner1">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-        <div class="box box-inner2">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-        <div class="box box-inner3">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-        <div class="box box-inner4">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-        <div class="box box-inner5">
-            <div class="inner-box">
-                <h2>Welcome To WsCubeTech</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae iusto, quo laborum praesentium,
-                    enim
-                    consequatur necessitatibus deserunt quasi, illum fugit dolores labore. Debitis id ad, repellendus
-                    laborum recusandae laboriosam?
-                </p>
-                <button>Welcome</button>
-            </div>
-        </div>
-    </div>
+	<div class="main">
+		<div class="items">
+			<img src="./Images/1.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="./Images/3.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="./Images/4.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="./Images/1.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="./Images/3.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="./Images/4.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div class="items">
+			<img src="./Images/1.jpg"/>
+			<div class="content">
+				<h2>Welcome to WS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		
+	</div>
 </body>
-
 </html>
