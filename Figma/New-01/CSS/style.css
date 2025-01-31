@@ -386,6 +386,15 @@ header {
     border-radius: 8px;
     padding: 10px 20px;
     cursor: pointer;
+    width: 253px;
+    height: 60px;
+}
+
+.theme-2 button span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
 }
 
 .theme-2 button:hover {
@@ -703,13 +712,14 @@ header {
     margin-bottom: 50px;
 }
 
-.row5-3-1{
+.row5-3-1 {
     padding: 20px 20px;
 }
 
-.row5-3-2{
+.row5-3-2 {
     padding: 20px 20px;
 }
+
 .row5-3-1-inner {
     display: grid;
     grid-template-columns: 10% 90%;
@@ -739,17 +749,17 @@ header {
 
 /* Row6 */
 
-.row6{
+.row6 {
     background-color: #F6F9FE;
     padding: 50px 0px;
 }
 
-.row6-inner{
+.row6-inner {
     max-width: 1170px;
     margin: auto;
 }
 
-.row6-inner h4{
+.row6-inner h4 {
     font-weight: 700;
     font-size: 36px;
     line-height: 43.57px;
@@ -757,7 +767,7 @@ header {
     padding: 20px 0px;
 }
 
-.row6-inner p{
+.row6-inner p {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -765,14 +775,14 @@ header {
     padding-bottom: 20px;
 }
 
-.row6-inner-1{
+.row6-inner-1 {
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.row6-inner-box{
+.row6-inner-box {
     border-radius: 8px;
     border: 1px solid #F2F4F7;
     background: #FFFFFF;
@@ -780,7 +790,7 @@ header {
     padding: 20px;
 }
 
-.row6-inner-box-inner{
+.row6-inner-box-inner {
     width: 64px;
     height: 64px;
     display: flex;
@@ -789,14 +799,14 @@ header {
     margin: 15px 0px;
 }
 
-.row6-inner-box p{
+.row6-inner-box p {
     font-weight: 600;
     font-size: 20px;
     line-height: 24.2px;
     color: #0A2134;
 }
 
-.row6-inner-box span{
+.row6-inner-box span {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -823,18 +833,19 @@ header {
     background: transparent;
     color: black;
 }
+
 /* Row6 */
 
 /* Row7 */
-.row7{
+.row7 {
     max-width: 1170px;
     margin: auto;
-    border: 1px solid;
-    padding: 50px 20px;
+    padding: 100px 20px;
+
     /* text-align: center; */
 }
 
-.row7 h3{
+.row7 h3 {
     font-weight: 700;
     font-size: 44px;
     line-height: 53.25px;
@@ -842,7 +853,7 @@ header {
     color: #0A2134;
 }
 
-.row7 p{
+.row7 p {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -851,14 +862,228 @@ header {
     padding: 20px 0px;
 }
 
+.row7-inner {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.row7-inner-box {
+    border: 1px solid #F2F4F7;
+    box-shadow: 0px 4px 20px -2px #002F5814;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    align-content: center;
+    gap: 15px;
+}
+
+.image-1 {
+    text-align: left;
+}
+
+.ipsum p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.image-1 p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+.image-1 span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.blue {
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    /* background-image: url('../Images/image\ 145.png') , url('../Images/image\ 146.png'); */
+}
+
+.blue h3 {
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53.25px;
+    padding-top: 50px;
+}
+
+.blue p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.theme-btns-5 button {
+    width: 253px;
+    height: 60px;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+
+.theme-btns-5 button {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.theme-btns-5 button:hover {
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+
+.theme-btns-5 span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
 
 /* Row7 */
+
+/* Row8 */
+
+.row8 {
+    background: #F7FAFF;
+    padding: 100px 0px;
+}
+
+.row8-inner {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row8-inner h3 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53.25px;
+    color: #0A2134;
+    padding: 20px 0px;
+}
+
+.row8-inner p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #0A2134;
+    padding: 20px 0px;
+}
+
+.web {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 90% 5%;
+    gap: 15px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: 2px solid #2699FB;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.web-inner:last-child{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #2699FB;
+    padding-top: 23px;
+}
+
+.web-inner p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #2699FB;
+}
+
+.web-inner span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #0A2134;
+}
+
+.dev{
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 90% 5%;
+    gap: 15px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.dev p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #0A2134;
+}
+
+.dev-inner i{
+    padding-top: 23px;
+}
+
+.theme-4 button {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 490px;
+}
+
+.theme-4 button:hover {
+    background: transparent;
+    color: black;
+}
+/* Row8 */
+
 /* Footer */
 
 footer {
     margin: auto;
     padding-top: 100px;
-    border: 1px solid red;
 }
 
 
