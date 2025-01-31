@@ -737,6 +737,122 @@ header {
 
 /* Row5 */
 
+/* Row6 */
+
+.row6{
+    background-color: #F6F9FE;
+    padding: 50px 0px;
+}
+
+.row6-inner{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row6-inner h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #0A2134;
+    padding: 20px 0px;
+}
+
+.row6-inner p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0A2134;
+    padding-bottom: 20px;
+}
+
+.row6-inner-1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.row6-inner-box{
+    border-radius: 8px;
+    border: 1px solid #F2F4F7;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    padding: 20px;
+}
+
+.row6-inner-box-inner{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.row6-inner-box p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #0A2134;
+}
+
+.row6-inner-box span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.theme-4 button {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 490px;
+}
+
+.theme-4 button:hover {
+    background: transparent;
+    color: black;
+}
+/* Row6 */
+
+/* Row7 */
+.row7{
+    max-width: 1170px;
+    margin: auto;
+    border: 1px solid;
+    padding: 50px 20px;
+    /* text-align: center; */
+}
+
+.row7 h3{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53.25px;
+    text-align: center;
+    color: #0A2134;
+}
+
+.row7 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0A2134;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+/* Row7 */
 /* Footer */
 
 footer {
